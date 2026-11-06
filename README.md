@@ -52,7 +52,7 @@ BloodBridge follows an ethical, non-commercial donation-based model:
 
 ### Step 1: Start the Backend Server
 ```powershell
-cd "d:\_Study\CSE\CSE479\Project blood bridge\backend"
+cd "[Backend folder path]"
 npm install
 npm start
 ```
@@ -60,7 +60,7 @@ The backend will run on **`http://localhost:5000`** and will auto-seed initial d
 
 ### Step 2: Start the Frontend Application
 ```powershell
-cd "d:\_Study\CSE\CSE479\Project blood bridge\frontend"
+cd "[Frontend folder path]"
 npm install
 npm run dev
 ```
@@ -75,7 +75,7 @@ node backend/test_workflows.js
 
 ## 🗄️ 5. Oracle Database Design (19 Tables)
 
-The complete SQL definitions and triggers are located in [`backend/database/oracle_schema.sql`](file:///d:/_Study/CSE/CSE479/Project%20blood%20bridge/backend/database/oracle_schema.sql):
+The complete SQL definitions and triggers are located in [`backend/database/oracle_schema.sql`]:
 
 1. **`ROLES`** - Role definitions (`ADMIN`, `HOSPITAL`, `DONOR`, `PATIENT`).
 2. **`USERS`** - Core user credentials with hashed passwords and status.
